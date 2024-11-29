@@ -1,0 +1,57 @@
+name: my_way_chat
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  sizer: ^2.0.15
+  flutter_emoji: ^2.5.1
+  emoji_picker_flutter: ^2.2.0
+  bubble: ^1.2.1
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  path_provider:
+  permission_handler: ^10.0.0
+  file_picker: ^8.0.5
+  flutter_sound: ^9.6.0
+  flutter_file_downloader: ^2.0.0
+  image_picker: ^1.1.2
+  animate_do: ^3.3.4
+  dio: ^5.6.0
+  pretty_dio_logger: ^1.4.0
+  cached_network_image: ^3.4.0
+  shimmer: ^3.0.0
+  easy_url_launcher: ^0.0.7
+  voice_message_player: ^1.1.2
+  wave_blob: ^1.0.5
+  pull_to_refresh: ^2.0.0
+  scrollview_observer: ^1.21.2
+  
+  intl: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/icons/
+
